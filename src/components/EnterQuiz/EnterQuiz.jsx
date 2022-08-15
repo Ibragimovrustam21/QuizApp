@@ -18,7 +18,7 @@ export const EnterQuiz = ({ setAmount, setFinishTest }) => {
     <div className='enterQuiz__wrapper'>
       <div className='enterQuiz__box'>
         <h6>Number Of Questions:</h6>
-        <Select defaultValue={localStorage.getItem('amount')} style={{ width: '100%' }} onChange={handleChange}>
+        <Select defaultValue={localStorage.getItem('amount') || 10} style={{ width: '100%' }} onChange={handleChange}>
           <Option value="10">10</Option>
           <Option value="20">20</Option>
           <Option value="30">30</Option>
