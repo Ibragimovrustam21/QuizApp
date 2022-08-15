@@ -1,0 +1,53 @@
+.enterQuiz__wrapper {
+  width: 100%;
+
+  .enterQuiz__box {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+
+    h6 {
+      color: #3a3737d9;
+    }
+
+    .btn {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+  .enterQuiz__wrapper {
+    .enterQuiz__box {
+      width: auto;
+      margin-top: 40px;
+
+      h6 {
+        font-size: 16px;
+        color: #3a3737d9;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .enterQuiz__wrapper {
+    .enterQuiz__box {
+      width: auto;
+      margin-top: 40px;
+
+      h6 {
+        font-size: 16px;
+        color: #3a3737d9;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+}
